@@ -1,0 +1,13 @@
+Network H: Subnet 220.60.0.0/27, Usable IPs: 220.60.0.1 - 220.60.0.30, Broadcast: 220.60.0.31, Hosts: 30
+Network B: Subnet 220.60.0.32/23 (adjusted to next /23 boundary), Usable IPs: 220.60.0.33 - 220.60.1.254, Broadcast: 220.60.1.255, Hosts: 510
+Network M: Subnet 220.60.2.0/23, Usable IPs: 220.60.2.1 - 220.60.3.254, Broadcast: 220.60.3.255, Hosts: 510
+Network J: Subnet 220.60.4.0/22, Usable IPs: 220.60.4.1 - 220.60.7.254, Broadcast: 220.60.7.255, Hosts: 1022
+Network I: Subnet 220.60.8.0/21, Usable IPs: 220.60.8.1 - 220.60.15.254, Broadcast: 220.60.15.255, Hosts: 2046
+Network N: Subnet 220.60.16.0/21, Usable IPs: 220.60.16.1 - 220.60.23.254, Broadcast: 220.60.23.255, Hosts: 2046
+Network D: Subnet 220.60.24.0/20 (adjusted to next /20 boundary), Usable IPs: 220.60.24.1 - 220.60.31.254, Broadcast: 220.60.31.255, Hosts: 4094
+Network L: Subnet 220.60.32.0/20, Usable IPs: 220.60.32.1 - 220.60.47.254, Broadcast: 220.60.47.255, Hosts: 4094
+Network G: Subnet 220.60.48.0/19 (adjusted to next /19 boundary), Usable IPs: 220.60.48.1 - 220.60.63.254, Broadcast: 220.60.63.255, Hosts: 8190
+Network C: Subnet 220.60.64.0/18, Usable IPs: 220.60.64.1 - 220.60.127.254, Broadcast: 220.60.127.255, Hosts: 16382
+Network E: Subnet 220.60.128.0/17, Usable IPs: 220.60.128.1 - 220.60.255.254, Broadcast: 220.60.255.255, Hosts: 32766
+Network A: Subnet 220.61.0.0/16, Usable IPs: 220.61.0.1 - 220.61.255.254, Broadcast: 220.61.255.255, Hosts: 65534
+Network F: Subnet 220.62.0.0/15, Usable IPs: 220.62.0.1 - 220.63.255.254, Broadcast: 220.63.255.255, Hosts: 131070

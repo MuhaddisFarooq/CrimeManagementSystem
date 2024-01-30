@@ -1,0 +1,30 @@
+.button:hover {
+    -fx-background-color: darkblue;
+    -fx-text-fill: white; 
+    -fx-cursor: hand; 
+
+}
+.custom-combo-box .list-cell {
+    -fx-text-fill: white; /* Change the color as needed */
+}
+
+.custom-combo-box .combo-box-popup .list-cell {
+    -fx-text-fill:black; /* Color for the dropdown items */
+}
+
+
+.start-button {
+    -fx-background-color: linear-gradient(#4f4f4f, #202020);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 15 20 15 20; /* Increased top and bottom padding */
+    -fx-border-color: silver;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.75), 5, 0, 0, 1);
+}
+
+.start-button:hover {
+    -fx-background-color: linear-gradient(#666666, #303030);
+}

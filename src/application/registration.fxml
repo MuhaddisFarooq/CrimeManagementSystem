@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="254.0" style="-fx-background-color: #389dab;" BorderPane.alignment="CENTER">
+         <children>
+				<Button fx:id="backButton" layoutY="-2.0" prefHeight="33.0" prefWidth="80.0" style="-fx-background-color: #0d9191;" styleClass="button" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="19.0" fitWidth="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/340.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="244.0" fitWidth="255.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/DALL·E%202023-11-24%2018.05.20%20-%20Design%20a%20minimalist%20and%20professional%20square%20background%20with%20the%20initials%20'APS'%20prominently%20displayed%20at%20the%20top.%20The%20image%20should%20be%20simple%20to%20allow%20f%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="346.0" style="-fx-background-color: #f0f9f9;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="51.0" layoutY="146.0" text="Username">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="186.0" text="Email">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="224.0" text="Password">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameField" layoutX="151.0" layoutY="143.0" />
+            <TextField fx:id="emailField" layoutX="151.0" layoutY="183.0" />
+            <PasswordField fx:id="passwordField" layoutX="151.0" layoutY="221.0" />
+				<RadioButton fx:id="civilianRadioButton" layoutX="96.0" layoutY="267.0" mnemonicParsing="false" text="Civilian">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+               <toggleGroup>
+                  <ToggleGroup fx:id="userTypeGroup" />
+               </toggleGroup>
+            </RadioButton>
+				<RadioButton fx:id="officerRadioButton" layoutX="201.0" layoutY="267.0" mnemonicParsing="false" text="Police Officer" toggleGroup="$userTypeGroup">
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </RadioButton>
+				<Button fx:id="signUpButton" layoutX="151.0" layoutY="310.0" onAction="#handleSignUp" prefHeight="28.0" prefWidth="88.0" style="-fx-background-color: #0d9191;" styleClass="button" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="12.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Desktop/2017517.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               
+            </Button>
+            <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/2017517.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/327339.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="25.0" fitWidth="27.0" layoutX="14.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/3099886.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" layoutY="44.0" prefHeight="22.0" prefWidth="308.0" text="Welcome To Apex Predator System">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
